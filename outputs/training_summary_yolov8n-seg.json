@@ -1,0 +1,25 @@
+{
+  "model": "yolov8n-seg.pt",
+  "model_tag": "yolov8n-seg",
+  "epochs_requested": 100,
+  "epochs_trained": 100,
+  "imgsz": 432,
+  "batch": 16,
+  "device": "cuda",
+  "training_time_s": 1201.1,
+  "training_time_hms": "0:20:01",
+  "trained_at": "2026-03-12T22:18:14.068895",
+  "best_weights": "C:\\Users\\oscar\\Documents\\ML\\shoe_counting\\outputs\\runs\\yolov8n-seg\\weights\\best.pt",
+  "last_weights": "C:\\Users\\oscar\\Documents\\ML\\shoe_counting\\outputs\\runs\\yolov8n-seg\\weights\\last.pt",
+  "final_metrics": {
+    "metrics/precision(B)": 0.808395888886085,
+    "metrics/recall(B)": 0.9326923076923077,
+    "metrics/mAP50(B)": 0.9196460705059168,
+    "metrics/mAP50-95(B)": 0.8723152750390912,
+    "metrics/precision(M)": 0.808395888886085,
+    "metrics/recall(M)": 0.9326923076923077,
+    "metrics/mAP50(M)": 0.920872430297494,
+    "metrics/mAP50-95(M)": 0.9047279800618865,
+    "fitness": 1.7770432551009776
+  }
+}

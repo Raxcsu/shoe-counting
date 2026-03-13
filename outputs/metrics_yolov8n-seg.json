@@ -1,0 +1,34 @@
+{
+  "model_tag": "yolov8n-seg",
+  "weights": "C:\\Users\\oscar\\Documents\\ML\\shoe_counting\\outputs\\runs\\yolov8n-seg\\weights\\best.pt",
+  "conf_threshold": 0.25,
+  "iou_threshold": 0.45,
+  "evaluated_at": "2026-03-12T22:24:55.966616",
+  "detection": {
+    "metrics/precision(B)": 0.7283522587606664,
+    "metrics/recall(B)": 0.8571428571428571,
+    "metrics/mAP50(B)": 0.8514941912451447,
+    "metrics/mAP50-95(B)": 0.8336750648915153,
+    "metrics/precision(M)": 0.7283522587606664,
+    "metrics/recall(M)": 0.8571428571428571,
+    "metrics/mAP50(M)": 0.8514941912451447,
+    "metrics/mAP50-95(M)": 0.8419385195394552,
+    "fitness": 1.6756135844309705,
+    "precision": 0.7283522587606664,
+    "recall": 0.8571428571428571,
+    "map50": 0.8514941912451447,
+    "map50_95": 0.8419385195394552,
+    "f1": 0.7875166940830357
+  },
+  "counting": {
+    "mae": 0.4262,
+    "rmse": 0.7893,
+    "mape": 0.0922,
+    "exact_match_rate": 0.6721,
+    "within_1_count_rate": 0.9016,
+    "mean_error_bias": 0.3607,
+    "total_true_shoes": 56,
+    "total_pred_shoes": 78,
+    "n_images": 61
+  }
+}

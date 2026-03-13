@@ -1,0 +1,6 @@
+names:
+- shoe
+nc: 1
+test: C:/Users/oscar/Documents/ML/shoe_counting/data/test/images
+train: C:/Users/oscar/Documents/ML/shoe_counting/data/train/images
+val: C:/Users/oscar/Documents/ML/shoe_counting/data/valid/images

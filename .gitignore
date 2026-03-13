@@ -1,0 +1,63 @@
+# ── Virtual environments ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Dataset ────────────────────────────────────────────────────────────────────
+data/
+!data/predict/          # sample inference images — keep in repo
+!data/predict/*.jpg
+!data/predict/*.png
+
+# ── Training outputs (large files) ────────────────────────────────────────────
+outputs/runs/          # YOLO training runs (weights, logs, plots)
+
+# ── Model weights ──────────────────────────────────────────────────────────────
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# ── Python cache ───────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS files ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ── Logs ───────────────────────────────────────────────────────────────────────
+*.log
+runs/
+
+# ── Auto-generated / Claude workflow files ────────────────────────────────────
+claude_*.md
+
+# ── What IS uploaded ───────────────────────────────────────────────────────────
+# ✅ *.py          scripts
+# ✅ requirements.txt
+# ✅ README.md
+# ✅ outputs/*.json     metrics and summaries (small)
+# ✅ outputs/*.csv      per-image results (small)
+# ✅ outputs/*.png      charts and plots (small)
+# ✅ outputs/*.txt      text reports (small)
+!outputs/*.json
+!outputs/*.csv
+!outputs/*.png
+!outputs/*.txt

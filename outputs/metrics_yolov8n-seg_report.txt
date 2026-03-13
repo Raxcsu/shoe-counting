@@ -1,0 +1,35 @@
+============================================================
+  EVALUATION REPORT – yolov8n-seg
+  Generated: 2026-03-12 22:24:57
+============================================================
+
+Weights : C:\Users\oscar\Documents\ML\shoe_counting\outputs\runs\yolov8n-seg\weights\best.pt
+Test set: C:\Users\oscar\Documents\ML\shoe_counting\data\test\images
+
+── DETECTION / SEGMENTATION METRICS ─────────────────────
+  mAP@50         : 0.8515
+  mAP@50-95      : 0.8419
+  Precision      : 0.7284
+  Recall         : 0.8571
+  F1 Score       : 0.7875
+
+── COUNTING METRICS ──────────────────────────────────────
+  MAE                    : 0.4262
+  RMSE                   : 0.7893
+  MAPE                   : 9.22%
+  Exact match rate       : 67.21%
+  Within ±1 count rate   : 90.16%
+  Mean error (bias)      : +0.3607
+
+── TOTALS ────────────────────────────────────────────────
+  Test images            : 61
+  Ground truth shoes     : 56
+  Predicted shoes        : 78
+
+── METRIC GUIDE ──────────────────────────────────────────
+  mAP@50         Higher is better (detection quality).
+  MAE            Lower is better (avg counting error).
+  RMSE           Lower is better (penalises large errors).
+  Exact match    Higher is better (% images with correct count).
+  Within ±1      Higher is better (% images off by at most 1).
+  Bias           Near 0 is better (+= over-counting, -= under).

@@ -1,0 +1,44 @@
+{
+  "train": {
+    "n_images": 981,
+    "total_objects": 1344,
+    "avg_per_image": 1.37,
+    "max_per_image": 4,
+    "min_per_image": 0,
+    "std_per_image": 0.531,
+    "count_histogram": {
+      "1": 603,
+      "2": 360,
+      "0": 12,
+      "3": 3,
+      "4": 3
+    }
+  },
+  "valid": {
+    "n_images": 108,
+    "total_objects": 104,
+    "avg_per_image": 0.963,
+    "max_per_image": 2,
+    "min_per_image": 0,
+    "std_per_image": 0.543,
+    "count_histogram": {
+      "1": 76,
+      "0": 18,
+      "2": 14
+    }
+  },
+  "test": {
+    "n_images": 61,
+    "total_objects": 56,
+    "avg_per_image": 0.918,
+    "max_per_image": 3,
+    "min_per_image": 0,
+    "std_per_image": 0.635,
+    "count_histogram": {
+      "1": 39,
+      "0": 14,
+      "3": 1,
+      "2": 7
+    }
+  }
+}
