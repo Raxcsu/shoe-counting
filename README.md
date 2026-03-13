@@ -183,6 +183,44 @@ Each image is saved to `outputs/predictions/<name>_comparison.png` as a side-by-
 
 ---
 
+## Results — YOLOv8n-seg (baseline)
+
+### Training
+| | |
+|---|---|
+| Model | `yolov8n-seg.pt` |
+| Epochs | 100 |
+| Image size | 432×432 |
+| Device | CUDA (GPU) |
+| Training time | **20 min 01 s** |
+
+### Detection / Segmentation metrics (test set)
+| Metric | Value |
+|---|---|
+| mAP@50 | **0.8515** |
+| mAP@50-95 | **0.8419** |
+| Precision | 0.7284 |
+| Recall | 0.8571 |
+| F1 Score | 0.7875 |
+
+### Counting metrics (test set — 61 images)
+| Metric | Value |
+|---|---|
+| MAE | **0.43** |
+| RMSE | 0.79 |
+| MAPE | 9.22% |
+| Exact match rate | **67.2%** |
+| Within ±1 rate | **90.2%** |
+| Bias | +0.36 (slight over-counting) |
+
+### Prediction example — `len3.jpg`
+
+![len3 prediction](outputs/predictions/len3_comparison.png)
+
+> Left: original image. Right: model prediction with segmentation masks, bounding boxes and confidence scores.
+
+---
+
 ## Metrics explained
 
 | Metric | Type | Better when |
